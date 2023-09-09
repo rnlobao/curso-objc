@@ -14,8 +14,8 @@
 		4A0DBD4C2AAD00560091E1C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0DBD4B2AAD00560091E1C7 /* Assets.xcassets */; };
 		4A0DBD4F2AAD00560091E1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0DBD4D2AAD00560091E1C7 /* LaunchScreen.storyboard */; };
 		4A0DBD522AAD00560091E1C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DBD512AAD00560091E1C7 /* main.m */; };
-		4A0DBD592AAD00AE0091E1C7 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A0DBD582AAD00AE0091E1C7 /* Cat.wav */; };
 		4A0DBD5C2AAD03A40091E1C7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0DBD5B2AAD03A40091E1C7 /* AudioToolbox.framework */; };
+		4A0DBD5E2AAD06E20091E1C7 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A0DBD5D2AAD06E20091E1C7 /* Cat.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		4A0DBD4E2AAD00560091E1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A0DBD502AAD00560091E1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A0DBD512AAD00560091E1C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A0DBD582AAD00AE0091E1C7 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Cat.wav; path = ../../Resources/Cat.wav; sourceTree = "<group>"; };
 		4A0DBD5B2AAD03A40091E1C7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4A0DBD5D2AAD06E20091E1C7 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				4A0DBD462AAD00550091E1C7 /* ViewController.m */,
 				4A0DBD482AAD00550091E1C7 /* Main.storyboard */,
 				4A0DBD4B2AAD00560091E1C7 /* Assets.xcassets */,
-				4A0DBD582AAD00AE0091E1C7 /* Cat.wav */,
+				4A0DBD5D2AAD06E20091E1C7 /* Cat.wav */,
 				4A0DBD4D2AAD00560091E1C7 /* LaunchScreen.storyboard */,
 				4A0DBD502AAD00560091E1C7 /* Info.plist */,
 				4A0DBD512AAD00560091E1C7 /* main.m */,
@@ -149,9 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0DBD4F2AAD00560091E1C7 /* LaunchScreen.storyboard in Resources */,
+				4A0DBD5E2AAD06E20091E1C7 /* Cat.wav in Resources */,
 				4A0DBD4C2AAD00560091E1C7 /* Assets.xcassets in Resources */,
 				4A0DBD4A2AAD00550091E1C7 /* Main.storyboard in Resources */,
-				4A0DBD592AAD00AE0091E1C7 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
