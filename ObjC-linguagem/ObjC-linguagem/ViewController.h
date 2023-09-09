@@ -14,6 +14,11 @@
     
     // MARK: - Strings
     NSString *nameInLabel;
+    
+    // MARK: - Integers
+    int score;
+    int bonus;
+    int checkpoint;
 }
 
 // MARK: - Strings

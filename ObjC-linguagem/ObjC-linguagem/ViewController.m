@@ -27,6 +27,14 @@
     nameInLabel = @"Robson";
     NSString *wordString = @"Hello";
     self.myLabel.text = [NSString stringWithFormat:@"%@ %@", wordString, nameInLabel];
+    
+    // MARK: - Integers
+    score = 150;
+    bonus = 100;
+    checkpoint = 20;
+    int finalScore = score + bonus + checkpoint;
+    self.myLabel.text = [NSString stringWithFormat:@"%d", finalScore];
+
 }
 
 
