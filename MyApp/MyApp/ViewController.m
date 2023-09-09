@@ -15,11 +15,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.myLabel.text = @"Teste";
 }
 
 
 - (IBAction)pressMe:(id)sender {
-    
+    self.myLabel.text = @"Ola";
 }
 @end

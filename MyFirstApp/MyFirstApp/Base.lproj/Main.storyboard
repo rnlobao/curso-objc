@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="tLF-v2-gLW">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61B-Eg-u1t">
+                                <rect key="frame" x="27" y="403.33333333333326" width="350" height="375.66666666666674"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="61B-Eg-u1t" secondAttribute="height" multiplier="41:44" id="Zb3-s2-NTP"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="cat"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="miauButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LGi-rU-Jsa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MEOW!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bE9-nM-C0E">
+                                <rect key="frame" x="27" y="80" width="350" height="288.33333333333331"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="labelColor"/>
+                                <size key="shadowOffset" width="5" height="7"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tLF-v2-gLW" secondAttribute="trailing" id="3Ga-z8-Koe"/>
+                            <constraint firstAttribute="bottom" secondItem="tLF-v2-gLW" secondAttribute="bottom" id="FhR-DJ-6S2"/>
+                            <constraint firstItem="bE9-nM-C0E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="GcB-VF-hDX"/>
+                            <constraint firstItem="tLF-v2-gLW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZhI-dl-hPg"/>
+                            <constraint firstItem="61B-Eg-u1t" firstAttribute="top" secondItem="bE9-nM-C0E" secondAttribute="bottom" constant="35" id="aEo-Vs-T37"/>
+                            <constraint firstItem="61B-Eg-u1t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="cVw-gm-ptg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="61B-Eg-u1t" secondAttribute="bottom" constant="39" id="gaW-xD-TfY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bE9-nM-C0E" secondAttribute="trailing" constant="16" id="hYf-uS-fw0"/>
+                            <constraint firstItem="tLF-v2-gLW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="itI-Xg-9w3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="61B-Eg-u1t" secondAttribute="trailing" constant="16" id="mgT-e3-6RF"/>
+                            <constraint firstItem="bE9-nM-C0E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="s9t-D0-ISP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myLabel" destination="bE9-nM-C0E" id="4l0-Df-3Jr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="1200" height="1200"/>
+        <image name="cat" width="900" height="978"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
