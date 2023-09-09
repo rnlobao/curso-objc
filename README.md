@@ -28,6 +28,13 @@ NSString * const minhaString = @"Valor imutável";
 self.myLabel.text = [NSString stringWithFormat:@"%@ %@", wordString, nameInLabel];
 
 ```
+* Da mesma forma que em C, quando queremos fazer referencia a algum valor dentro da string fazemos %d
+* Para transformar de int para string fazemos:
+
+```
+self.myLabel.text = [NSString stringWithFormat: @"%d", meuValorInteiro];
+```
+
 
 
 
