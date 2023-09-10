@@ -55,6 +55,11 @@
     } else {
         NSLog(@"Está errado!");
     }
+    
+    // MARK: - For loop
+    for (int i = 0; i <= 10; i++) {
+        NSLog(@"%d", i);
+    }
 }
 
 
