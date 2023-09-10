@@ -45,7 +45,9 @@ NSMutableArray *meuArrayMutavel = [[NSMutableArray alloc] initWithObjects: @1, @
 [meuArrayMutavel insertObject:@2 atIndex: 2];
 [meuArrayMutavel removeObjectAtIndex: 0];
 ```
-
+* O for funciona como em C for(int i = 0; i < 10; i++)
+* **IMPORTANTE** as expressões que ficam entre colchetes [] são porque estamos chamando um método daquele objeto que está dentro, isso é chamado de **SINTAXE DE MENSAGEM**
+*   
 
 
 
