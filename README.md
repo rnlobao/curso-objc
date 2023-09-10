@@ -28,12 +28,28 @@ NSString * const minhaString = @"Valor imutável";
 self.myLabel.text = [NSString stringWithFormat:@"%@ %@", wordString, nameInLabel];
 
 ```
-* Da mesma forma que em C, quando queremos fazer referencia a algum valor dentro da string fazemos %d
+* Da mesma forma que em C, quando queremos fazer referencia a algum valor dentro da string fazemos %d para inteiro %f para float
 * Para transformar de int para string fazemos:
 
 ```
 self.myLabel.text = [NSString stringWithFormat: @"%d", meuValorInteiro];
 ```
+
+Arrays:
+* Podemos criar um mutavel e um imutavel, adicionar, inserir e remover itens
+
+```
+NSArray *meuArray = @[@1, @2, @3];
+NSMutableArray *meuArrayMutavel = [[NSMutableArray alloc] initWithObjects: @1, @2, @3, nil];
+[meuArrayMutavel addObject:@4];
+[meuArrayMutavel insertObject:@2 atIndex: 2];
+[meuArrayMutavel removeObjectAtIndex: 0];
+```
+
+
+
+
+
 
 
 
