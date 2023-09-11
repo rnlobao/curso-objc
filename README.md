@@ -12,7 +12,7 @@ Bullet points de anotações de cada seção do curso de objetive-c para consult
 
 App com timer e geração de som criado:
 
-![Simulator Screen Recording - iPhone 14 Pro - 2023-09-09 at 16 59 12](https://github.com/rnlobao/curso-objc/assets/66230142/53d35d25-e0cf-4e53-a61c-5983ff182971)
+<img src="https://github.com/rnlobao/curso-objc/assets/66230142/53d35d25-e0cf-4e53-a61c-5983ff182971.gif" width="120"/>
 
 ## Learning Objective-C
 
@@ -47,7 +47,19 @@ NSMutableArray *meuArrayMutavel = [[NSMutableArray alloc] initWithObjects: @1, @
 ```
 * O for funciona como em C for(int i = 0; i < 10; i++)
 * **IMPORTANTE** as expressões que ficam entre colchetes [] são porque estamos chamando um método daquele objeto que está dentro, isso é chamado de **SINTAXE DE MENSAGEM**
-*   
+
+## Objective-C Creating Functions
+* Trocar a cor de uma label e sua fonte:
+
+```
+self.myLabel.textColor = [UIColor redColor];
+[self.myLabel setFont: [UIFont systemFontOFSize:12]];
+```
+
+<img src="https://github.com/rnlobao/curso-objc/assets/66230142/1221d591-8bc5-4bf0-a97b-afb68cd93dba.gif" width="120"/>
+
+
+
 
 
 
