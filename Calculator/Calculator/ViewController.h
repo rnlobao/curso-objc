@@ -12,6 +12,7 @@
     float result;
     float currentNumber;
 }
+
 @property (weak, nonatomic) IBOutlet UILabel *labelCalc;
 - (IBAction)digitPressAction:(id)sender;
 - (IBAction)cancel:(id)sender;
