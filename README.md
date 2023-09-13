@@ -62,7 +62,7 @@ Propriedade de texto | Animação | Timer | Data e Hora | Relógio digital perso
   :---------: | :---------: | :---------: | :---------: | :---------:
   <img src="https://github.com/rnlobao/curso-objc/assets/66230142/1221d591-8bc5-4bf0-a97b-afb68cd93dba.gif" width="150"/> | <img width="150" alt="image" src="https://github.com/rnlobao/curso-objc/assets/66230142/c86c890e-b5b8-4a94-95a3-8d1bcacb25dc"> | <img src="https://github.com/rnlobao/curso-objc/assets/66230142/e5c303b3-7c5e-4750-a3dc-35ad086bb6a3.gif" width="150"/> | <img src="https://github.com/rnlobao/curso-objc/assets/66230142/da0ed24f-3822-4a4e-be02-204d2e80fdbb.gif" width="150"/> | <img src="https://github.com/rnlobao/curso-objc/assets/66230142/b73fea11-fb1c-4478-9f04-4f8f6c2cb200.gif" width="150"/>
 
-## Objective-C Random Generator & Creating actions & Calculation Application
+## Objective-C Random Generator & Creating actions & Calculation Application & Displaying Views
 * Para gerar um numero aleatorio usamos um arc4random(), essa função basicamente dita as aleatoriedades do Objective-C
 * Para abrir um link da web fazemos:
 
@@ -70,12 +70,27 @@ Propriedade de texto | Animação | Timer | Data e Hora | Relógio digital perso
 [[UIApplication sharedApplication] open URL: [NSURL URLWithString:@"google.com"] options:@{} completionHandler:nil];
 ```
 
-Random Cars | Calculadora 
-  :---------: | :---------:
-<img src="https://github.com/rnlobao/curso-objc/assets/66230142/fc3f1c37-e7b2-4140-8067-552afbadd586.gif" width="150"/> | <img width="150" alt="image" src="https://github.com/rnlobao/curso-objc/assets/66230142/ea8c7710-7f48-4250-ba34-2e1cd2418d25">
+* Para criar um alert fazemos:
+
+```
+- (IBAction)showMeAlert:(id)sender {
+    UIAlertController *alert =[UIAlertController alertControllerWithTitle:@"Title" message:@"Message" preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"Dismiss" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        [alert dismissViewControllerAnimated:true completion:nil];
+    }];
+    
+    [alert addAction:cancel];
+    [self presentViewController:alert animated:true completion:nil];
+}
+```
+
+
+Random Cars | Calculadora | Alerts 
+  :---------: | :---------: | :---------:
+<img src="https://github.com/rnlobao/curso-objc/assets/66230142/fc3f1c37-e7b2-4140-8067-552afbadd586.gif" width="150"/> | <img width="150" alt="image" src="https://github.com/rnlobao/curso-objc/assets/66230142/ea8c7710-7f48-4250-ba34-2e1cd2418d25"> | <img width="150" alt="image" src="https://github.com/rnlobao/curso-objc/assets/66230142/fb8c41fd-9651-4a4e-8806-858a0ff74daf">
 
 (Pulei a parte de Gesture Based Games)
-
 
 
 
