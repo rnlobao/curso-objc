@@ -9,7 +9,7 @@
 #import <WebKit/WebKit.h>
 
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <WKNavigationDelegate>
 @property (weak, nonatomic) IBOutlet WKWebView *webView;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *indicator;
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;

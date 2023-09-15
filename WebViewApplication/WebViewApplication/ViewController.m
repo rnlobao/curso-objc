@@ -17,8 +17,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://google.com"]]];
+    [self.webView addSubview:self.indicator];
+    [self.indicator startAnimating];
+    self.webView.navigationDelegate = self;
 }
 
+- (void)webView:(WKWebView *)webView didCommitNavigation:(WKNavigation *)navigation {
+    [self.indicator startAnimating];
+}
+
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
+    [self.indicator stopAnimating];
+}
 
 - (IBAction)fastFoward:(id)sender {
     if ([self.webView canGoForward]) {
