@@ -86,11 +86,9 @@ Propriedade de texto | Animação | Timer | Data e Hora | Relógio digital perso
 ```
 
 
-Random Cars | Calculadora | Alerts 
-  :---------: | :---------: | :---------:
-<img src="https://github.com/rnlobao/curso-objc/assets/66230142/fc3f1c37-e7b2-4140-8067-552afbadd586.gif" width="150"/> | <img width="150" alt="image" src="https://github.com/rnlobao/curso-objc/assets/66230142/ea8c7710-7f48-4250-ba34-2e1cd2418d25"> | <img width="150" alt="image" src="https://github.com/rnlobao/curso-objc/assets/66230142/fb8c41fd-9651-4a4e-8806-858a0ff74daf">
-
-(Pulei a parte de Gesture Based Games)
+Random Cars | Calculadora | Alerts | WebView
+  :---------: | :---------: | :---------: | :---------:
+<img src="https://github.com/rnlobao/curso-objc/assets/66230142/fc3f1c37-e7b2-4140-8067-552afbadd586.gif" width="150"/> | <img width="150" alt="image" src="https://github.com/rnlobao/curso-objc/assets/66230142/ea8c7710-7f48-4250-ba34-2e1cd2418d25"> | <img width="150" alt="image" src="https://github.com/rnlobao/curso-objc/assets/66230142/fb8c41fd-9651-4a4e-8806-858a0ff74daf"> | <img width="150" alt="image" src="https://github.com/rnlobao/curso-objc/assets/66230142/5bc3e6b0-460b-4e19-95d4-bf25accdd2d3">
 
 
 
