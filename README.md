@@ -2,20 +2,13 @@
 
 Bullet points de anotações de cada seção do curso de objetive-c para consultas futuras.
 
-## Getting started with iOS 12 and Xcode 10
+## Getting started with iOS 12 and Xcode 10 (Curso Udemy)
 
 * Todo atributo visual tem que ser declarado no .h, ou seja, se quiser usar um IBOUTLET de algum label, direcione para o header.
 * Tudo termina com ;
 * String literal precisa ser @"Alguma coisa"
 * Para importar uma biblioteca podemos fazer: (.xcodeproject -> Build Phases -> Link Binary With Libraries) e escolher uma
 * Para importar uma biblio fazemos no arquivo .h com #import <suaBiblio>
-
-App com timer e geração de som criado:
-
-<img src="https://github.com/rnlobao/curso-objc/assets/66230142/53d35d25-e0cf-4e53-a61c-5983ff182971.gif" width="150"/>
-
-## Learning Objective-C
-
 * A maioria das variáveis são criadas em formato de ponteiro
 * Constantes são criadas com (tipo * const nome) exemplo:
 ```
@@ -62,7 +55,6 @@ Propriedade de texto | Animação | Timer | Data e Hora | Relógio digital perso
   :---------: | :---------: | :---------: | :---------: | :---------:
   <img src="https://github.com/rnlobao/curso-objc/assets/66230142/1221d591-8bc5-4bf0-a97b-afb68cd93dba.gif" width="150"/> | <img width="150" alt="image" src="https://github.com/rnlobao/curso-objc/assets/66230142/c86c890e-b5b8-4a94-95a3-8d1bcacb25dc"> | <img src="https://github.com/rnlobao/curso-objc/assets/66230142/e5c303b3-7c5e-4750-a3dc-35ad086bb6a3.gif" width="150"/> | <img src="https://github.com/rnlobao/curso-objc/assets/66230142/da0ed24f-3822-4a4e-be02-204d2e80fdbb.gif" width="150"/> | <img src="https://github.com/rnlobao/curso-objc/assets/66230142/b73fea11-fb1c-4478-9f04-4f8f6c2cb200.gif" width="150"/>
 
-## Objective-C Seção 6 até 11
 * Para gerar um numero aleatorio usamos um arc4random(), essa função basicamente dita as aleatoriedades do Objective-C
 * Para abrir um link da web fazemos:
 
